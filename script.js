@@ -6,7 +6,7 @@
     sections.forEach(section => {
       var rows = section.querySelectorAll('.row');  
       rows.forEach((row,i) => {
-        row.classList.add(`x-row-${i}`);
+        row.classList.add(`x-row-${i+1}`);
       })
     })
 })
